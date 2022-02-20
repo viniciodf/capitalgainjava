@@ -40,4 +40,4 @@ $ mvn clean install
 $ docker build -f Dockerfile -t capitalgainjava .
 
     3) E por ultimo rodar a aplicação conteinerizada:
-$ docker run -p 8080:8080 -t capitalgainjava
+$ docker run -i -t capitalgainjava
