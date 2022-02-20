@@ -24,6 +24,7 @@ public class Main {
     }
 
     private static List<CapitalGain> readInput() {
+        System.out.println("Waiting for input: ");
         Scanner scanner = new Scanner(System.in);
         String jsonString = scanner.nextLine();
         return new LinkedList<>(Arrays.asList(new Gson().fromJson(jsonString, CapitalGain[].class)));
