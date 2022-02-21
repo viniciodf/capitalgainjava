@@ -28,7 +28,7 @@ Foram utilizados alguns padrões de projetos e algumas boas praticas de desenvol
     1) Foi utilizado o design pattern Factory Method para entregar o servico correto (sell ou buy) de acordo com a operação enviada no input da aplicação
     2) Foi utilizado o design pattern Strategy para separar a logica de operacao de venda e compra
     3) Foi utilizado através do lombok o design pattern Builder para a construção e manejo dos pojos.
-    4) E também foi utilizado os principios de SOLID e clean code durante a codifição da aplicação
+    4) E também foi utilizado os principios de SOLID e clean code durante a codificação da aplicação
 ## Execução
 
 Para executar a aplicação, basta seguir os seguintes passos:
